@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+InventoryLowStockLibrary.egg-info/PKG-INFO
+InventoryLowStockLibrary.egg-info/SOURCES.txt
+InventoryLowStockLibrary.egg-info/dependency_links.txt
+InventoryLowStockLibrary.egg-info/requires.txt
+InventoryLowStockLibrary.egg-info/top_level.txt
+lowStockLib/__init__.py
+lowStockLib/checkerStock.py

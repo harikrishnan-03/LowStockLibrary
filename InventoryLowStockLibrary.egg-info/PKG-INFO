@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: InventoryLowStockLibrary
+Version: 0.1.0
+Summary: A Python library to fetch low stock items from an RDS database.
+Home-page: UNKNOWN
+Author: Harikrishnan Satheeshkumar
+Author-email: harikrishnanq11@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Inventory Low Stock Checker
+
+A Python library to fetch low stock items from an RDS database.
+The user has to give the required query and RDS credentials.
+
+When the stock quantity goes below a given threshold, it will be shown.
+
+### A sample query is given below.
+
+    query = f"""
+        SELECT itemName, supplier, dateAdded, quantity
+        FROM {table_name}
+    """
+
+Here the item name, supplier name, date added and quantity will be fetched from the table.
+
+
+
